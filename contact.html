@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <title>Just Dance | Contact us</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2><a class="branding" href="./index.html">Just Dance Songs</a></h2>
+        <ul class="navbar">
+          <li><a class="nav__link" href="./index.html">Home</a></li>
+          <li><a class="nav__link active" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <h1 class="contact__heading">Contact us today!</h1>
+        <form id="contact-form" action="">
+          <div class="form__group">
+            <label class="form__label" for="name">Name</label>
+            <input type="text" id="name" class="form__input" />
+            <p class="error-text hidden">Please enter a name</p>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="subject">Subject</label>
+            <input type="text" id="subject" class="form__input" />
+            <p class="error-text hidden">Please enter atleast 10 characters</p>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="email">Email</label>
+            <input type="email" id="email" class="form__input" />
+            <p class="error-text hidden">Please enter a valid email</p>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="address">Address</label>
+            <input type="address" id="address" class="form__input" />
+            <p class="error-text hidden">Please enter atleast 25 characters</p>
+          </div>
+          <button type="submit" class="btn form__submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <script type="module" defer src="./public/js/contact.js"></script>
+  </body>
+</html>

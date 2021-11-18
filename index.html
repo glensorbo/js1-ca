@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <title>Just Dance | Song Collection</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><a class="branding" href="./index.html">Just Dance Songs</a></h1>
+        <ul class="navbar">
+          <li><a class="nav__link active" href="./index.html">Home</a></li>
+          <li><a class="nav__link" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <img src="./public/img/hero.png" alt="Group of drawn dancers" />
+      </section>
+      <section class="container">
+        <button id="scroll-button" class="hidden">
+          <!-- svg from https://heroicons.com/ -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </section>
+    </main>
+    <script type="module" defer src="./public/js/index.js"></script>
+  </body>
+</html>
